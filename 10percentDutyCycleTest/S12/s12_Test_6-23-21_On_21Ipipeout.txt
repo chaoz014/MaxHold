@@ -1,0 +1,22 @@
+
+./rx_samples -b 500000 -f 1000000000 -g 14 -r 625000 -w 100000 --handle=A1 -d s12_Test_6-23-21_On_21I.bin
+Info: using Rx handle A1
+Info: initializing card 0...
+Info: initialized card 0
+Info: opened file s12_Test_6-23-21_On_21I.bin.a1 for output
+Info: tcvcxo warp voltage left at factory setting
+Info: packed mode disabled
+Info: tunable RX LO frequency range = 1000000Hz to 6000000000Hz
+Info: gain index range = 0 to 76
+Info: configured Rx LO freq to 1000000000 Hz
+Info: configured manual gain mode
+Info: set gain index to 14
+Info: actual sample rate is 625000.000000, actual bandwidth is 500000
+Info: acquiring 100000 words at 1018 words per block
+Info: num blocks to acquire is 99
+Info: configured for I/Q data mode
+Info: starting 1 Rx interface(s)
+Got first timestamp 9389294 for handle 0
+Info: stopping 1 Rx interface(s)
+Info: done receiving, start write to file for hdl 0
+Info: Done without errors!
